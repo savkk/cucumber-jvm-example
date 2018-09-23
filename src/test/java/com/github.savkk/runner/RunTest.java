@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features"
 //        tags = "@all"
 )
-//public class RunTest extends AbstractTestNGCucumberTests { // для запуска через TestNG
-@RunWith(Cucumber.class) // для запуска через JUnit
+//public class RunTest extends AbstractTestNGCucumberTests { // РґР»СЏ Р·Р°РїСѓСЃРєР° С‡РµСЂРµР· TestNG
+@RunWith(Cucumber.class) // РґР»СЏ Р·Р°РїСѓСЃРєР° С‡РµСЂРµР· JUnit
 public class RunTest {
 }

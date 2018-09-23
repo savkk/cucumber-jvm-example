@@ -4,12 +4,12 @@ import cucumber.api.java.After;
 import cucumber.api.java.AfterStep;
 import cucumber.api.java.Before;
 import cucumber.api.java.BeforeStep;
-import cucumber.api.java.ru.Ктомуже;
+import cucumber.api.java.ru.РљС‚РѕРјСѓР¶Рµ;
 
 public class Hooks {
     private static int count;
 
-    @Ктомуже("Первый/Второй/Третий шаг")
+    @РљС‚РѕРјСѓР¶Рµ("РџРµСЂРІС‹Р№/Р’С‚РѕСЂРѕР№/РўСЂРµС‚РёР№ С€Р°Рі")
     public void empty() {
         System.out.println(++Hooks.count);
     }

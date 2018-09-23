@@ -1,6 +1,6 @@
 package com.github.savkk.stepdefs;
 
-import cucumber.api.java.ru.Допустим;
+import cucumber.api.java.ru.Р”РѕРїСѓСЃС‚РёРј;
 
 import java.math.BigInteger;
 import java.util.List;
@@ -8,43 +8,43 @@ import java.util.Map;
 
 public class DefaultTypesStepDefinitions {
 
-    @Допустим("передадим в метод шага целое число {int}")
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ С€Р°РіР° С†РµР»РѕРµ С‡РёСЃР»Рѕ {int}")
     public void giveInt(Integer int1) {
         System.out.println(int1);
     }
 
-    @Допустим("передадим в метод шага {string}")
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ С€Р°РіР° {string}")
     public void giveString(String string) {
         System.out.println(string);
     }
 
-    @Допустим("передадим в метод шага {word}")
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ С€Р°РіР° {word}")
     public void giveWord(String string) {
         System.out.println(string);
     }
 
-    @Допустим("передадим в метод шага BigInteger {biginteger}")
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ С€Р°РіР° BigInteger {biginteger}")
     public void giveWord(BigInteger integer) {
         System.out.println(integer);
     }
 
-    @Допустим("Hello, world(s)!")
+    @Р”РѕРїСѓСЃС‚РёРј("Hello, world(s)!")
     public void getHello() {
         System.out.println("Hello world!");
     }
 
-    @Допустим("основной/альтернативный текст")
+    @Р”РѕРїСѓСЃС‚РёРј("РѕСЃРЅРѕРІРЅРѕР№/Р°Р»СЊС‚РµСЂРЅР°С‚РёРІРЅС‹Р№ С‚РµРєСЃС‚")
     public void getAlternative() {
         System.out.println("Hello world!");
     }
 
-    @Допустим("передадим в метод коллекцию строк")
-    public void передадим_в_метод_коллекцию_строк(List<String> dataTable) {
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ РєРѕР»Р»РµРєС†РёСЋ СЃС‚СЂРѕРє")
+    public void РїРµСЂРµРґР°РґРёРј_РІ_РјРµС‚РѕРґ_РєРѕР»Р»РµРєС†РёСЋ_СЃС‚СЂРѕРє(List<String> dataTable) {
         System.out.println(dataTable);
     }
 
-    @Допустим("передадим в метод ассоциативный массив")
-    public void передадим_в_метод_ассоциативный_массив(Map<String, String> dataTable) {
+    @Р”РѕРїСѓСЃС‚РёРј("РїРµСЂРµРґР°РґРёРј РІ РјРµС‚РѕРґ Р°СЃСЃРѕС†РёР°С‚РёРІРЅС‹Р№ РјР°СЃСЃРёРІ")
+    public void РїРµСЂРµРґР°РґРёРј_РІ_РјРµС‚РѕРґ_Р°СЃСЃРѕС†РёР°С‚РёРІРЅС‹Р№_РјР°СЃСЃРёРІ(Map<String, String> dataTable) {
         System.out.println(dataTable);
     }
 }
